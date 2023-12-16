@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+   background-image: url(/photo/Premium\ Photo\ _\ Leaves\ twig\ at\ the\ corner\ of\ white\ background.jpeg);
+   height: auto;
+    background-repeat: no-repeat;
+background-size: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+
+    width:370px;
+    text-align: center;
+    border-radius: 4px;
+  
+    background-color: transparent;
+    height: 280px;
+    margin-top: 220px;
+    
+}
+h1 {
+    color:#3b6459;
+    padding-top: 20px;
+}
+input {
+    width: 80%;
+    padding: 10px;
+    
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+label {
+    font-family: tahoma;
+}
+
+button {
+    background-color:#3b6459;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    width:86%;
+    cursor: pointer;
+}
+
+.success-message {
+    display: none;
+    margin-top: 15px;
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+.password-reset-form {
+    display: none;
+    margin-top: 20px;
+}
+
+.password-reset-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.password-reset-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.password-reset-form button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.error-message {
+    color: #e74c3c;
+    font-weight: bold;
+    display: none;
+}

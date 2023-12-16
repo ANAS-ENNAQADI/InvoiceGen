@@ -1,0 +1,140 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    background-image: url(/photo/Premium\ Photo\ _\ Leaves\ twig\ at\ the\ corner\ of\ white\ background.jpeg);
+   height: auto;
+    background-repeat: no-repeat;
+background-size: cover;
+    
+}
+
+.verification-code-container {
+    margin-top:30PX;
+    margin-top: 200px;
+    gap: 10px;
+    align-items: center;
+    padding-top:20px;
+    justify-content: center;
+}
+
+input {
+    width: 80%;
+    text-align: center;
+    height: 35px;
+    font-size: 18px;
+    outline: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    
+    outline: none;
+}
+.error-message{
+    padding: 7px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgba(248, 54, 54, 0.676);
+    opacity: 70%;
+    font-size: 13px;
+    border: 1px solid red;
+    font-family: tahoma;
+    font-weight: bold;
+    color:black;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 77.5%;
+    border-top: none;
+    display: none;
+}
+/* Style for focused input */
+.verification-code-input:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 5px #007BFF;
+}
+
+/* Style for the success message container */
+#success-message {
+    display: none;
+    padding: 10px;
+    
+    
+    background-color: transparent; /* Green background color */
+    color: black; /* Text color */
+    border-radius: 5px;
+    text-align: center;
+    position: fixed;
+    padding-left: 18px;
+  width: 22%;
+    height:50px;
+    
+
+}
+
+/* Style for the success text and icon */
+.success-text {
+    font-size: 16px;
+}
+
+/* Style for the icon */
+i.fas.fa-check-circle {
+    color: green; /* Icon color */
+    margin-right: 5px; /* Spacing between icon and text */
+}
+
+#send{
+    background-color:white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin-top: 10px;
+    font-family: tahoma;
+    border: 1px solid gray;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    width:80%;
+    
+    cursor: pointer;
+}
+#verify{
+    background-color:#009e74;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin-top: 10px;
+    font-family: tahoma;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: bold;
+    width:80%;
+    cursor: pointer;
+}
+input::placeholder{
+    color: #3b6459;
+    font-size: 16px;
+}
+#p{
+    font-size: 15px;
+    color: #5b5b5b;
+}
+h1{
+    color:#619486;
+    margin-bottom: -7px;
+}
+button:hover {
+    background-color: #619486;
+}
+#fom{
+
+border-radius: 4px;
+margin-top: -59px;
+    background-color: transparent;
+    height:400px;
+    width:25%;
+    align-items: center;
+    justify-content: center;
+}

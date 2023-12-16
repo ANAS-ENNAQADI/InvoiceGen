@@ -1,0 +1,309 @@
+* {
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+    }
+nav{
+width:100%;
+z-index:10;
+height:50px;
+line-height:40px;
+padding:0px 100px;
+border-radius: 2px;
+position:fixed;
+background-color:#3d4c59;
+}
+nav a p:hover{
+    color: #356659;
+}
+nav  a p{
+
+font-size:20px;
+font-weight: bold;
+float:left;
+color:white;
+position:relative;
+left:-60px;
+letter-spacing:1.5px;
+margin-top:2px;
+cursor:pointer;
+}
+
+nav ul{
+float:right;
+margin-top:3px;
+margin-right:70px;
+
+}
+
+nav button  {
+    width:50px;
+    height: 34px;
+    z-index: 7;
+    cursor:pointer;
+    
+    position:relative;
+    top: -36px;
+    margin-left: 1250px;
+    border:none;
+    border-radius: 50%;
+}
+nav button img{
+    width:50px;
+    height: 34px;
+    border-radius: 50%;
+   
+}
+nav li{
+display:inline-block;
+
+list-style:none;
+
+}
+nav li a{
+font-size: 16px;
+padding:0px 12px;
+font-weight: bold;
+font-family: sans-serif;
+color:white;
+text-decoration :none;
+}
+nav li a:hover{
+color:#009e74;
+
+transition:all 0.4s ease 0s;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background-color:#aaa;
+  }
+  
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+/* Dropdown container */
+.dropdown {
+    display: none;
+    width: 125px;
+    z-index:11;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 1310px;
+    bottom: 648px;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+/* Dropdown button */
+.myacc button,
+.logout button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, color 0.3s;
+    color: #3d4c59;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: sans-serif;
+    background-color: white;
+    text-align: center;
+}
+.logout button {
+padding-right: 37px;
+
+}
+.myacc button i{
+    margin-right: 8px;
+
+}
+.logout button i {
+    margin-right: 12px;
+    padding-top: 3px;
+}
+.myacc button:hover,
+.logout button:hover {
+    background-color: #f5f5f5;
+    color: #555;
+}
+
+/* Logout button style */
+.logout button {
+    margin-top: 5px;
+    color: #d9534f;
+}
+
+.logout button:hover {
+    background-color: #f2f2f2;
+    color: #d9534f;
+}
+
+/* Icon styles */
+#user {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+}
+
+#logout {
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+}
+.container h1 {
+    font-size: 30px;
+    color: #356659;
+  position: relative;
+  top:-20px;
+}
+.container h2 {
+    color:#356659;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* About Section */
+.about {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 28px;
+    color:#356659;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 18px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Features Section */
+.features {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.feature {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature:hover {
+    transform: translateY(-5px);
+}
+
+.feature i {
+    font-size: 36px;
+    color:#356659;
+}
+
+.feature h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color:#009e74;
+}
+
+.feature p {
+    margin-top: 10px;
+    color: #666;
+}
+
+/* Benefits Section */
+.benefits {
+    background-color: #ffffff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.benefits ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.benefits li {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f5f5f5;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.contact a {
+    color: #3498db;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact a:hover {
+    color: #2384c6;
+}
+
+.social-icons{
+    margin-top:10px;
+margin-bottom: -20px;
+}
+.social-icons a {
+    margin: 0 15px;
+    color: #590069;
+    font-size: 24px;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    color:#590069;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #395b52;
+    color: white;
+}

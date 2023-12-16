@@ -1,0 +1,412 @@
+* {
+    box-sizing:border-box;
+    margin:0px;
+    padding:0px;
+    }
+  nav button  {
+        width:50px;
+        height: 34px;
+        z-index: 7;
+        cursor:pointer;
+        
+        position:relative;
+        top: -36px;
+        margin-left: 1250px;
+        border:none;
+        border-radius: 50%;
+    }
+    nav button img{
+        width:50px;
+        height: 34px;
+        border-radius: 50%;
+       
+    }
+    nav li{
+        display:inline-block;
+      margin-top:3px;
+        list-style:none;
+        
+    }
+    nav li a{
+        font-size: 15px;
+        padding:0px 20px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color:white;
+        text-decoration :none;
+    }
+  
+nav{
+width:100%;
+z-index:10;
+height:50px;
+line-height:40px;
+padding:0px 100px;
+border-radius: 2px;
+position:static;
+background-color:#3d4c59;
+}
+nav ul{
+float:right;
+position: absolute;
+right:750px;
+
+margin-top:-43px;
+
+}
+nav  p{
+    font-family: sans-serif;
+font-size:20px;
+font-weight: bold;
+float:left;
+color:white;
+position:relative;
+margin-top:3px;
+left:-60px;
+letter-spacing:1.5px;
+cursor:pointer;
+}
+nav li a:hover{
+color:#009e74;
+
+transition:all 0.4s ease 0s;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+    background-color:#aaa;
+  }
+.header li{
+    position: relative;
+    left :460px;
+}
+
+.head h1{
+    opacity: 90%;
+    text-align: left;
+    margin-bottom: 30px;
+    color: #232e38;
+    font-family: ColfaxWeb,Helvetica,Arial,sans-serif;
+    font-weight: bold;
+   
+}
+.head p{
+    font-family: sans-serif;
+    color:#555;
+}
+.sear{
+    border:1px solid    #ccc;; 
+    width:270px;
+    height:40px;
+    border-radius: 4px;
+    display: flex; /* Use Flexbox */
+    justify-content: center; /* Center the items horizontally */
+    align-items: center; 
+    margin-top: 50px;
+    margin-left:20px;
+}
+#clearButton{
+    margin-right:-40px;
+    padding-left: 25px;
+    color:red;
+    cursor:pointer;
+    display:none;
+}
+#searchButton{
+    margin-left:-30px;
+    color:#009e74;
+    cursor:pointer;
+    padding-right: 20px;
+}
+.sear button{
+    border:none;
+    background-color: white;
+
+   
+}
+.sear input{
+  border:1px solid white;
+    border:none;
+outline:none;
+
+   
+}
+#export{
+    background-color: red;
+    color: white;
+   border-color:rgb(198, 107, 107);
+    width:75px;
+    outline:none;
+    border:none;
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+}
+#inv{
+       background-color: #009e74;
+    
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    border:none;
+    cursor:pointer;
+    color: white;
+    box-shadow: 0 1px 0 0 rgba(22,29,37,.1), inset 0 1px 0 1px rgba(255,255,255,.06);
+    width: 110px;
+}
+.but button{
+    margin-right: 6px;
+    height: 37px;
+}
+.but {
+    display:flex;
+    margin-top: -35px;
+    margin-left: 705px;
+    
+}
+.head{
+    padding-left: 20px;
+    padding-top:20px;
+   
+
+}
+.main{
+    border:1px solid whitesmoke;
+    box-shadow: 1px 1px 2px gray;
+   
+    margin-top: 40px;
+    width:920px;
+    height: 445px;
+    border-radius: 4px;
+    background: white;
+    margin-left: 260px;
+}
+.body{
+    background: #f3f5f7;
+   
+}
+.foot{
+    height:260px;
+ 
+    background-color: #dfe3e8;
+   margin-top:50px;
+    z-index: 1;
+   overflow: hidden;
+    
+    width:100%;
+    border-top: 2px solid #ddd
+}
+.fot {
+    display:block;
+    padding-left:70px;
+    padding-top:50px;
+    font-weight: bold;
+    color:#3d4c59;
+
+
+}
+.fo {
+    padding-left:70px;
+    padding-top:10px;
+    font-family: ColfaxWeb,Helvetica,Arial,sans-serif;
+}
+.fo li{
+    list-style: none;
+    padding-top:10px;
+}
+.fo li a{
+   text-decoration: none;
+   color:#3d4c59;
+
+}
+.fout {
+    position:relative;
+  bottom:197px;
+   margin-left:600px;
+ 
+}
+.foot p{
+    font-weight: bold;
+    color:#3d4c59;
+    margin-bottom:10px;
+}
+.foot li {
+    list-style: none;
+ padding-top: 10px;
+}
+.foot li a{
+    text-decoration: none;
+    margin-top:10px;
+    color:#3d4c59;
+}
+.fou{
+    position:relative;
+    bottom:253px;
+    left:1000px
+}
+.down{
+    position:relative;
+    
+    top:-5px;
+}
+.down hr{
+    border:1px solid rgb(200, 199, 199);
+    opacity:30%;
+    width:877px;
+    margin-left: 18px;
+}
+#p{
+    color: #999;
+    font-size: 18px;
+    font-weight: 200;
+    display: none;
+    margin-top:8px;
+    font-family: sans-serif;
+}
+.dow i {
+    margin-left:35px;
+    margin-top:22px;
+    color: red;
+}
+.dow {
+    display: flex;
+}
+.dow  pre {
+    color:red;
+    font-family: tahoma;
+    padding-top:20px;
+    padding-left:10px;
+}
+.down{
+    margin-top:0px;
+}
+.dropdown {
+    display: none;
+    width: 125px;
+    z-index:11;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    position: absolute;
+    left: 1310px;
+    bottom: 648px;
+    box-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
+
+/* Dropdown button */
+.myacc button,
+.logout button {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s, color 0.3s;
+    color: #3d4c59;
+    font-weight: bold;
+    font-size: 13px;
+    font-family: sans-serif;
+    background-color: white;
+    text-align: center;
+}
+.logout button {
+padding-right: 37px;
+
+}
+.myacc button i{
+    margin-right: 8px;
+
+}
+.logout button i {
+    margin-right: 12px;
+    padding-top: 3px;
+}
+.myacc button:hover,
+.logout button:hover {
+    background-color: #f5f5f5;
+    color: #555;
+}
+
+/* Logout button style */
+.logout button {
+    margin-top: 5px;
+    color: #d9534f;
+}
+
+.logout button:hover {
+    background-color: #f2f2f2;
+    color: #d9534f;
+}
+
+/* Icon styles */
+#user {
+    width: 18px;
+    height: 18px;
+    margin-right: 6px;
+}
+
+#logout {
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+}
+
+
+
+.data-table{
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px  gray;
+    border-collapse: collapse;
+    min-width:530px;
+    background-color:white;
+    font-family: tahoma;
+    font-size: 16px;
+    padding-left: 10px;
+    color:#3d4c59;
+    margin-left:193px;
+   
+    height: 60px;
+   margin-bottom:15px;
+  
+   padding-bottom: 5px;
+    align-items: center;
+    text-align: center;
+}
+.data-table tbody td button{
+    border:1px solid rgb(239, 239, 239);
+    background-color:#3d4c59;
+    color:white;
+width: 55px;
+cursor: pointer;
+    outline:none;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    
+    
+}
+
+
+#tr {
+    background-color: #009e74;
+    height: 15px;
+    padding-top: 10px;
+    padding-left: 7px;
+    border-radius: 4px;
+    align-items: center;
+text-align: center;
+color:#232e38;
+
+}

@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+    background-image: url(/photo/Premium\ Photo\ _\ Leaves\ twig\ at\ the\ corner\ of\ white\ background.jpeg);
+    height: auto;
+     background-repeat: no-repeat;
+ background-size: cover;
+}
+.container{
+    margin-top: 160px;
+    padding-top: 23px;
+    border-radius: 4px;
+
+    background-color: transparent;
+    height:360px;
+    width:35%;
+    align-items: center;
+    justify-content: center;
+}
+p{
+    margin-bottom: 20px;
+   font-family: tahoma;
+}
+h1{
+    color: #549181;
+    text-align: center;
+    font-family: sans-serif;
+}
+input::placeholder{
+    font-size: 15px;
+}
+input {
+    font-size: 20px;
+    outline: none;
+    width: 400px;
+   
+    padding: 10px;
+    height:22px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#password-error{
+    border: 1px solid red;
+    display: none;
+    border-top: none;
+    font-size: 15px;
+    font-family: bold;
+    
+    margin-top:-13px;
+   font-family: tahoma;
+    width:400px;
+    text-align: center;
+    padding:8px;
+}
+button {
+    background-color:#009e74;
+    color: #fff;
+    border: none;
+    width: 420px;
+    margin-top:10px;
+    height: 40px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #549181;
+}
+
+/* Center the form */
+#reset-password-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
